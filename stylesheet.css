@@ -1,0 +1,145 @@
+
+
+.titleBox {
+	background-color: #c96b4e;
+  	margin:0px auto;
+  	margin-top: 10px;
+	padding: 5px;
+	width: 300px;
+
+}
+
+.calculateDistance{
+	background-color: #808080;
+	margin:0px auto;
+	margin-top: 20px;
+	border-radius: 6px;
+	padding: 5px;
+	width: 80%;
+	text-align: center;
+}
+
+.buttons{
+
+	background-color: #2c3441;
+  	border: none;
+	color: #c96b4e;
+	padding: 10px 25px;
+  	text-align: center;
+	text-decoration: none;
+ 	display: inline-block;
+  	font-size: 14px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	display: inline-block;
+}
+
+.module {
+  scroll-behavior: [ auto | smooth ];
+}
+
+.column {
+	float: left;
+	padding: 10px;  			
+}
+.clear { clear: both; height: 90px; }
+
+
+
+.left {
+	width: 50%;
+}
+
+.right {
+	width: 50%;
+}
+
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+		
+@font-face {
+  	font-family: "myFont";
+  	src: url("springfield.ttf");
+ }
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+body{
+	background: #d3d3d3;
+	color: white;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+}
+			
+input[type=number] {
+  	border: 2px solid-blue;
+  	border-radius: 4px;
+  	width: 36%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	font-size: 14px;
+}
+
+input, select {
+    width:10%;
+}
+
+header{
+	background: #2c3441;
+	padding: 5px;
+}
+
+section{
+	background: #cccccc;
+	color: gray;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+ul{
+	text-align: center;
+	list-style: inside;
+
+}
+
+li{
+	display: inline-block;
+	padding-right: 30px;
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+footer{
+	background: #2c3441;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	position: fixed;
+  	top: auto;
+  	bottom: 0;
+  	width: 100%;
+  	display: inline-block;
+ }
+
+h3{
+	text-align: center;
+	margin: 0px;
+	padding: 10px 0px 5px 0px;
+}
+			
+p{
+	color: white;
+	padding: 0px 60px 0px 60px;
+}
